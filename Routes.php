@@ -1,22 +1,19 @@
 <?php
-Route::set('saraksts.php', function() {
-    Saraksts::CreateView('Saraksts');
+$db = new Database();
+
+Route::set('create', function() {
+    Create::CreateView('create');
 });
 
-Route::set('pievienot.php', function() {
-    pievienot::CreateView('Pievienot');
+Route::set('edit', function() {
+    Edit::CreateView('edit');
 });
 
-Route::set('labot.php', function() {
-    Labot::CreateView('Labot');
+Route::set('main', function() {
+    $index = new Index();
+    $index::CreateView('index');
+    $data = $index->query("SELECT * FROM data");
 });
 
-Route::set('aboutme.php', function() {
-    aboutme::CreateView('Aboutme');
-});
-
-Route::set('index.php', function() {
-    Index::CreateView('Index');
-});
 
 ?>

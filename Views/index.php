@@ -41,7 +41,7 @@
     <div class="card text-center">
         <div class="col align-self-center">
             <div class="container">
-                <a href="pievienot.php" method="post" action="index.php" class="input_form">
+                <a href="create.php" method="post" action="index.php" class="input_form">
                  <button type="button" name="submit" id="add_btn" class="btn btn-secondary btn-lg pull-right" style="float:right;">Pievienot jaunu </button>
                 </a>
             </div>

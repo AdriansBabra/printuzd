@@ -25,14 +25,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="aboutme.php">About Me <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="create.php">Pievienošana</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pievienot.php">Pievienošana</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="labot.php">Rediģēšana</a>
+                        <a class="nav-link" href="edit.php">Rediģēšana</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
